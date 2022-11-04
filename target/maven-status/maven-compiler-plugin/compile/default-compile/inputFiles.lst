@@ -1,7 +1,10 @@
 /workspace/spring/src/main/java/project/club/config/SecurityConfig.java
 /workspace/spring/src/main/java/project/club/controller/MainController.java
+/workspace/spring/src/main/java/project/club/security/dto/ClubAuthMemberDTO.java
 /workspace/spring/src/main/java/project/club/repository/ClubMemberRepository.java
 /workspace/spring/src/main/java/project/club/entity/ClubMemberRole.java
-/workspace/spring/src/main/java/project/Application.java
 /workspace/spring/src/main/java/project/club/entity/ClubMember.java
+/workspace/spring/src/main/java/project/club/ServletInitializer.java
+/workspace/spring/src/main/java/project/club/ClubApplication.java
 /workspace/spring/src/main/java/project/club/entity/BaseEntity.java
+/workspace/spring/src/main/java/project/club/security/service/ClubUserDetailsService.java
