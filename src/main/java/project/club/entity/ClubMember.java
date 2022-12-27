@@ -15,7 +15,7 @@ import java.util.Set;
 @Getter
 @ToString
 public class ClubMember extends BaseEntity {
-
+    
     @Id
     private String email;
 
@@ -31,5 +31,22 @@ public class ClubMember extends BaseEntity {
     public void addMemberRole(ClubMemberRole clubMemberRole){
         roleSet.add(clubMemberRole);
     }
+    
+    // public Builder email(String value) {
+    //     email = value;
+    //     return this;
+    // }
+    // public Builder password(String value) {
+    //     password = value;
+    //     return this;
+    // }
+    // public Builder name(String value) {
+    //     name = value;
+    //     return this;
+    // }
+    // public Builder fromSocial(String value) {
+    //     fromSocial = value;
+    //     return this;
+    // }
 
 }

@@ -6,7 +6,11 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import project.club.security.dto.ClubAuthMemberDTO;
+import org.springframework.ui.Model;
+import lombok.Getter;
 
+@Getter
 @Controller
 @RequestMapping("/test/")
 public class MainController {
@@ -27,14 +31,12 @@ public class MainController {
         LOGGER.info("exAdmin..........");
     }
 
-    // @GetMapping("/member")
-    // public void exMember(@AuthenticationPrincipal ClubAuthMemberDTO clubAuthMember){
+    @GetMapping("/member")
+    public void exMember(@AuthenticationPrincipal ClubAuthMemberDTO clubAuthMember, Model model ){
 
-    //     log.info("exMember..........");
+        LOGGER.info("exMember..........");
 
-    //     log.info("-------------------------------");
-    //     log.info(clubAuthMember);
-
-    // }
-
+        LOGGER.info("-------------------------------");
+        model.addAttribute("result", clubAuthMember);
+    }
 }

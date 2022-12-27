@@ -1,1 +1,3 @@
-/workspace/spring/src/test/java/ApplicationTests.java
+/workspace/spring/src/test/java/club/security/PasswordTests.java
+/workspace/spring/src/test/java/club/security/ClubMemberTests.java
+/workspace/spring/src/test/java/club/ClubApplicationTests.java

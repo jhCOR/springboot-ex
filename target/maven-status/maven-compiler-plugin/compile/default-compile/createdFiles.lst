@@ -1,1 +1,11 @@
+project/club/security/dto/ClubAuthMemberDTO.class
+project/club/entity/BaseEntity.class
+project/club/entity/ClubMemberRole.class
 project/club/entity/ClubMember$ClubMemberBuilder.class
+project/club/ServletInitializer.class
+project/club/repository/ClubMemberRepository.class
+project/club/entity/ClubMember.class
+project/club/config/SecurityConfig.class
+project/club/controller/MainController.class
+project/club/security/service/ClubUserDetailsService.class
+project/club/ClubApplication.class

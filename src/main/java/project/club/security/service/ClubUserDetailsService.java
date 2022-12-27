@@ -14,16 +14,20 @@ import project.club.entity.ClubMember;
 import project.club.repository.ClubMemberRepository;
 import project.club.security.dto.ClubAuthMemberDTO;
 
+import lombok.Getter;
+import lombok.Setter;
+
 import java.util.Optional;
 import java.util.stream.Collectors;
 
+
 @Service
+@Getter
+@Setter
 @RequiredArgsConstructor
 public class ClubUserDetailsService  implements UserDetailsService {
 	private static final Logger LOGGER = LogManager.getLogger(ClubUserDetailsService.class);
     private final ClubMemberRepository clubMemberRepository;
-    
-    
     
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
